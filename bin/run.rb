@@ -4,4 +4,6 @@ Scraper.new(@db).scrape
 
 all_pokemon = @db.execute("SELECT * FROM pokemon;")
 
-# test out your code here!
+# pokemon_1 = Pokemon.new("pokemonname","testtype", )
+#
+# Pry.start
